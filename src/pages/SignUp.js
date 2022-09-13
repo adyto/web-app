@@ -1,14 +1,14 @@
 import React from "react";
 
 import imgLogo from "../assets/images/img-logo.png";
-import img1 from "../assets/images/img-sign-in-1.png";
-import img2 from "../assets/images/img-sign-in-2.png";
-import img3 from "../assets/images/img-sign-in-3.png";
+import img1 from "../assets/images/img-sign-up-1.png";
+import img2 from "../assets/images/img-sign-up-2.png";
+import img3 from "../assets/images/img-sign-up-3.png";
 
 const SignUp = () => {
   return (
-    <div className="container  3xl:px-[120px] mx-auto  3xl:mt-[50px] ">
-      <div className="flex flex-row justify-between ">
+    <div className="container 3xl:px-[120px] mx-auto  3xl:mt-[50px] font-Raleway">
+      <div className="flex flex-row justify-between">
         <div className="flex flex-col 3xl:w-2/5">
           <div className="3xl:w-[60px] 3xl:h-[70px]">
             <img src={imgLogo} alt="logo banner" />
@@ -53,7 +53,7 @@ const SignUp = () => {
               type="email"
               name="email"
               className="3xl:pl-[23px] 3xl:py-[23px] bg-white border shadow-sm border-slate-400 placeholder-slate-500 focus:outline-none focus:border-ring-blue-500/500 focus:ring-ring-blue-500/50 block 3xl:w-[598px] w-full rounded-20px sm:text-sm focus:ring-1 placeholder:text-base"
-              placeholder="Masukan email/No. Handphone "
+              placeholder="Masukan email / No. Handphone "
             />
           </div>
           <div className="3xl:mb-[63px]">
@@ -73,9 +73,12 @@ const SignUp = () => {
           >
             Submit
           </button>
-          <p className="3xl:mb-[60px]">Powered by Pembab Muara Enim</p>
+          <p className="3xl:mb-[60px]">
+            Powered by{" "}
+            <span className="text-cyan font-bold">Pemkab Muara Enim</span>
+          </p>
         </div>
-        <div className="flex flex-col 3xl:w-3/5 relative ">
+        <div className="flex flex-col 3xl:w-3/5 relative">
           <div className="absolute 3xl:top-[50px] 3xl:right-[14px]">
             <img src={img3} alt="img3" />
           </div>

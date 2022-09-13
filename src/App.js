@@ -4,6 +4,8 @@ import "./index.css";
 
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
+import ForgetPassword from "./pages/ForgetPassword";
+import ResetPassword from "./pages/ResetPassword";
 
 class App extends React.Component {
   render() {
@@ -11,6 +13,8 @@ class App extends React.Component {
       <Routes>
         <Route path="/sign-in" element={<SignIn />} />
         <Route path="/sign-up" element={<SignUp />} />
+        <Route path="/forget-password" element={<ForgetPassword />} />
+        <Route path="/reset-password" element={<ResetPassword />} />
       </Routes>
     );
   }
