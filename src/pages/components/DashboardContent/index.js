@@ -3,6 +3,8 @@ import React from "react";
 import icAvatar from "../../../assets/icons/ic-avatar.png";
 import icLogout from "../../../assets/icons/ic-logout.svg";
 
+import DoughnutChart from "./DoughnutChart";
+
 const DashboardContent = () => {
   return (
     <div className="w-4/5 2xl:px-[40px]">
@@ -38,13 +40,23 @@ const DashboardContent = () => {
             <div className="flex flex-row 2xl:px-[30px] 2xl:py-[30px]">
               <div className="flex flex-col 2xl:space-y-56">
                 <p className="font-bold text-[28px]">Statistik Ibu & Anak</p>
-                <p>dsa</p>
+                <div>ISI</div>
               </div>
               <h1>INI GAMBAR</h1>
             </div>
           </div>
         </div>
-        <div className="rounded-xl">2</div>
+        <div className="rounded-xl shadow-[0px_3px_6px_rgba(0,0,0,0.16)]">
+          <div className="">
+            <div className="flex flex-row 2xl:px-[30px] 2xl:py-[30px]">
+              <div className="flex flex-col 2xl:space-y-56">
+                <p className="font-bold text-[28px]">Pola Konsumsi Pangan</p>
+                <div>ISI</div>
+              </div>
+              <DoughnutChart />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
