@@ -1,0 +1,11 @@
+<svg id="icons_Q2" data-name="icons Q2" xmlns="http://www.w3.org/2000/svg" width="33.966" height="33.883" viewBox="0 0 33.966 33.883">
+  <g id="Group_2351" data-name="Group 2351">
+    <g id="Group_2350" data-name="Group 2350" transform="translate(6.277 8.272)">
+      <rect id="Rectangle_1616" data-name="Rectangle 1616" width="6" height="3" rx="1.5" transform="translate(0.456 0.176)" fill="#fff"/>
+      <rect id="Rectangle_1617" data-name="Rectangle 1617" width="6" height="3" rx="1.5" transform="translate(0.456 7.176)" fill="#fff"/>
+      <rect id="Rectangle_1618" data-name="Rectangle 1618" width="15" height="3" rx="1.5" transform="translate(0.456 14.176)" fill="#fff"/>
+      <rect id="Rectangle_1619" data-name="Rectangle 1619" width="6" height="10" rx="1.8" transform="translate(9.456 0.176)" fill="#fff"/>
+    </g>
+    <path id="Path_1374" data-name="Path 1374" d="M3.544,5h24.7A1.677,1.677,0,0,1,29.79,6.783V15.7h4.632a1.677,1.677,0,0,1,1.544,1.783h0v16.05c0,2.955-2.074,5.35-4.632,5.35H6.632c-2.558,0-4.632-2.4-4.632-5.35V6.783A1.677,1.677,0,0,1,3.544,5ZM32.878,33.533V19.266H29.79V33.533a1.56,1.56,0,1,0,3.088,0Zm-27.79,0a1.677,1.677,0,0,0,1.544,1.783h20.3a6.527,6.527,0,0,1-.232-1.783V8.567H5.088Z" transform="translate(-2 -5)" fill="#fff"/>
+  </g>
+</svg>
