@@ -5,7 +5,7 @@ import icLogout from "../../../assets/icons/ic-logout.svg";
 
 const DashboardContent = () => {
   return (
-    <div className="w-4/5 2xl:mr-[40px]">
+    <div className="w-4/5 2xl:px-[40px]">
       {/* Navbar */}
       <div className="flex flex-row-reverse 2xl:mr-[60px] items-center space-x-[93px] space-x-reverse 2xl:mt-[35px] 2xl:mb-10">
         <a
@@ -21,9 +21,31 @@ const DashboardContent = () => {
           <p className="text-xl font-bold 2xl:ml-3.5">Angelina Sisca</p>
         </div>
       </div>
-      Losrem ipsum dolor sit amet consectetur adipisicing elit. Maiores ratione
-      assumenda sed temporibus autem numquam hic facere animi, ipsam quis ipsum
-      quo accusantium amet, consectetur fugit aaastiae minima distinctio atque!
+
+      {/* Breadcrumb */}
+      <div className="flex flex-col">
+        <p className="font-bold 2xl:text-[58px] 2xl:mb-3">Dashboard</p>
+        <p className="font-medium text-2xl">
+          <span className="text-[#9A9A9A]">Home / </span>
+          <span className="text-cyan font-bold text-[26px]">Dashboard</span>
+        </p>
+      </div>
+
+      {/* Content */}
+      <div className="flex flex-row justify-between 2xl:mr-[60px]">
+        <div className="rounded-xl shadow-[0px_3px_6px_rgba(0,0,0,0.16)]">
+          <div className="">
+            <div className="flex flex-row 2xl:px-[30px] 2xl:py-[30px]">
+              <div className="flex flex-col 2xl:space-y-56">
+                <p className="font-bold text-[28px]">Statistik Ibu & Anak</p>
+                <p>dsa</p>
+              </div>
+              <h1>INI GAMBAR</h1>
+            </div>
+          </div>
+        </div>
+        <div className="rounded-xl">2</div>
+      </div>
     </div>
   );
 };
